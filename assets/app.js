@@ -1,7 +1,7 @@
 var timer;
 
 var compareDate = new Date();
-compareDate.setDate(compareDate.getDate() + 37); //just for this demo today + 7 days
+compareDate.setDate(compareDate.getDate() + 39); //just for this demo today + 7 days
 
 timer = setInterval(function() {
   timeBetweenDates(compareDate);
