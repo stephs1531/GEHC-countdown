@@ -1,0 +1,68 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(18,2,47,1) 0%, rgba(100,10,205,1) 53%, rgba(164,83,239,1) 100%);
+    text-align: center;
+    margin: 0 auto;
+    /* box-sizing: border-box; */
+  }
+
+  svg {
+      max-width: 20vw;
+      padding-bottom: 30px;
+      padding-top: 30px;
+  }
+
+  h1 {
+      font-family:Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      letter-spacing: .06em;
+      font-size: 80px;
+      color: #ffffff;
+  }
+
+  p {
+      margin-top: -30px;
+  }
+
+  #header-section {
+      text-align: center;
+      align-items: center;
+      min-height: 30vh;
+  }
+
+
+  #timer {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    column-gap: 60px;
+  }
+  #timer span {
+    font-size: 140px;
+    color: #ffffff;
+    font-weight: 600;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex-grow: 1;
+    flex: 1;
+
+  }
+  #timer span:first-child {
+    margin-left: 0;
+  }
+
+  .time-group {
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background-color: rgba(18,2,47,0.5);
+      border-radius: 15px;
+  }
+    
