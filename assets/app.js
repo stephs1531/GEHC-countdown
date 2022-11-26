@@ -1,7 +1,7 @@
 var timer;
 
 var compareDate = new Date();
-compareDate.setDate(compareDate.getDate() + 39); //just for this demo today + 7 days
+compareDate.setDate(compareDate.getDate() + 39); //change this line -- only change the number 39 to be however many days you need to count down.
 
 timer = setInterval(function() {
   timeBetweenDates(compareDate);
